@@ -13,11 +13,17 @@
 }
 
 .screen {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     border: 2px solid black;
     width: 370px;
     height: 150px;
     margin-top: 10px;
+    padding-right: 15px;
     background-color: white;
+    font-size: xx-large;
+    overflow: hidden;
 }
 
 .clearbtn {
